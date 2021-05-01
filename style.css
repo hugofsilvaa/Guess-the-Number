@@ -122,20 +122,22 @@ h1 {
   * {
     box-sizing: border-box;
   }
+
   h1 {
     font-size: 3rem;
   }
 
-  .between {
-    margin: 45% 0 0 20%;
-    left: 0;
+  .header {
+    padding: 50%;
   }
+
   .guess {
-    margin: 30% 0 0 0;
+    margin: 50% 0 0 0;
   }
   main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .left {
@@ -153,8 +155,17 @@ h1 {
 
   .message {
     text-align: center;
+    padding: 10%;
   }
   .again {
-    margin: 0 20%;
+    left: 25%;
+  }
+
+  .between {
+    margin: 60% 0 0 0;
+    right: 25%;
+
+    transform: translate(25% -25%);
+    font-size: 1rem;
   }
 }
